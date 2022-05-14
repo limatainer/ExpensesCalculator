@@ -1,14 +1,10 @@
-import Team from './components/Team'
 import FormPage from './pages/FormPage'
+import Home from './pages/Home'
 
 
 function App() {
   return (
-    <div className='container'>
-      <FormPage />
-      <br />
-      <Team />
-    </div>
+    <Home />
   )
 }
 

@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       colors: {
         micolor: {
-          500: '#8257e6',
+          500: '#549127',
         }
       }
     },
