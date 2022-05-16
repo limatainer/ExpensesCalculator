@@ -5,6 +5,7 @@ export default function FormPage() {
     <div className="flex flex-wrap -mx-px mt-3 text-center overflow-hidden sm:-mx-px md:-mx-1 lg:-mx-px xl:-mx-1">
       <div className="my-px px-px w-full overflow-hidden sm:my-px sm:px-px sm:w-full md:my-1 md:px-1 md:w-1/2 lg:my-px lg:px-px lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/2">
         {/* <!-- Coluna Esquerda --> */}
+        <br />
         <h1 className="
         inline
         text-3xl
@@ -12,22 +13,26 @@ export default function FormPage() {
         tracking-tight
         sm:text-4xl
         sm:block
-        ">Calculadora de Gastos</h1>
+        ">Expenses Calculator</h1>
         <br />
         <h3 className="
         inline
         text-3xl
         font-extrabold
         tracking-tight
-        text-pink-500
+        text-indigo-500
         sm:text-4xl
         sm:block
-        ">Iremos calcular o valor que precisa guardar para alcançar seu objetivo</h3>
+        ">Let us do the math and help you find your target to safe money</h3>
         <br />
         <Form />
       </div>
-      <div className="my-px px-px w-full overflow-hidden sm:my-px sm:px-px sm:w-full md:my-1 md:px-1 md:w-1/2 lg:my-px lg:px-px lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/2">
-        {/* <!-- Coluna direita --> */}
+      {/* <!-- Coluna direita --> */}
+      <div className="my-px px-px w-full 
+      overflow-hidden sm:my-px sm:px-px sm:w-full md:my-1 
+      md:px-1 md:w-1/2 lg:my-px lg:px-px lg:w-1/2 xl:my-1 xl:px-1 
+      xl:w-1/2">
+        <br />
         <h1 className='inline
         text-3xl
         font-extrabold

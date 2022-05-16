@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { default as Logo } from '../../assets/img/logo.svg'
 
 export default function Navbar() {
@@ -11,19 +12,19 @@ export default function Navbar() {
         <div className="justify-between items-center text-center w-full md:flex md:w-auto md:order-1">
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <li>
-              <a href="#" className="block py-2 pr-4 pl-3 text-lime-500 hover:text-micolor-500 rounded md:bg-transparent md:text-lime-500 hover:text-micolor-500 md:p-0 dark:text-lime-600" aria-current="page">Home</a>
+              <Link to="/" className="block py-2 pr-4 pl-3 text-lime-500 hover:text-micolor-500 rounded md:bg-transparent md:text-lime-500 hover:text-micolor-500 md:p-0 dark:text-lime-600" aria-current="page">Home</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 pr-4 pl-3 text-lime-500 hover:text-micolor-500 rounded md:bg-transparent md:text-lime-500 hover:text-micolor-500 md:p-0 dark:text-lime-600">Calcular</a>
+              <Link to="/form" className="block py-2 pr-4 pl-3 text-lime-500 hover:text-micolor-500 rounded md:bg-transparent md:text-lime-500 hover:text-micolor-500 md:p-0 dark:text-lime-600">Calcular</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 pr-4 pl-3 text-lime-500 hover:text-micolor-500 rounded md:bg-transparent md:text-lime-500 hover:text-micolor-500 md:p-0 dark:text-lime-600">Gastos</a>
+              <Link to="/" className="block py-2 pr-4 pl-3 text-lime-500 hover:text-micolor-500 rounded md:bg-transparent md:text-lime-500 hover:text-micolor-500 md:p-0 dark:text-lime-600">Gastos</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 pr-4 pl-3 text-lime-500 hover:text-micolor-500 rounded md:bg-transparent md:text-lime-500 hover:text-micolor-500 md:p-0 dark:text-lime-600">Lista</a>
+              <Link to="/" className="block py-2 pr-4 pl-3 text-lime-500 hover:text-micolor-500 rounded md:bg-transparent md:text-lime-500 hover:text-micolor-500 md:p-0 dark:text-lime-600">Lista</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 pr-4 pl-3 text-lime-500 hover:text-micolor-500 rounded md:bg-transparent md:text-lime-500 hover:text-micolor-500 md:p-0 dark:text-lime-600">Contato</a>
+              <Link to="/contato" className="block py-2 pr-4 pl-3 text-lime-500 hover:text-micolor-500 rounded md:bg-transparent md:text-lime-500 hover:text-micolor-500 md:p-0 dark:text-lime-600">Contato</Link>
             </li>
           </ul>
         </div>
